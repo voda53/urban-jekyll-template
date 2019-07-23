@@ -6,19 +6,17 @@ image_path: /images/clients/kolco1.jpg
 ---
 
 
-
-### Features
-
 [//]: # * [Donorbox](https://donorbox.org/)
 [//]: # * [MailChimp](https://mailchimp.com/)
-
+### Фичи
+	- Фичи
 		* Копка колодцев, поиск воды.
 		* Утепление колодцев.
 		* Системы водоснабжения от колодцев, артезианских скважин, водоёмов. Круглогодичный и летний вариант.
 		* Консервация системы водопровода на зиму и расконсервация.
 		* Внутренняя разводка водопровода.
 		* Установка сан. тех. приборов
-	  directions_markdown: |-
+	directions_markdown: |-
     1. Pre heat oven to 350°F.
     2. Cream the butter and the sugar.
     3. Add the golden syrup and the dry ingredients.
