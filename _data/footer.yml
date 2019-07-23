@@ -30,5 +30,5 @@
       new_window: true
     - name: Vkontakte
       link: 'https://vk.com/id466853316'
-      social_icon:
+      social_icon: Vkontakte
       new_window: true
