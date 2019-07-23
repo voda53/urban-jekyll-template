@@ -1,4 +1,4 @@
-- title: Pages
+- title: 
   links:
     - name: Главная
       link: /
@@ -10,7 +10,7 @@
       link: /about/
     - name: Контакты
       link: /contact/
-- title: Social
+- title: 
   links:
     - name: Vkontakte
       link: 'https://vk.com/id466853316'
