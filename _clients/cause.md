@@ -15,14 +15,15 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 ## Features
 
-* Pre-built pages
-* Pre-styled components
-* Configurable footer
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* SEO tags
-* Google Analytics
-* [Donorbox](https://donorbox.org/)
-* [MailChimp](https://mailchimp.com/)
+[//]: # * [Donorbox](https://donorbox.org/)
+[//]: # * [MailChimp](https://mailchimp.com/)
+
+* Копка колодцев, поиск воды.
+* Утепление колодцев.
+* Системы водоснабжения от колодцев, артезианских скважин, водоёмов. Круглогодичный и летний вариант.
+* Консервация системы водопровода на зиму и расконсервация.
+* Внутренняя разводка водопровода.
+* Установка сан. тех. приборов
 
 ## Setup
 
