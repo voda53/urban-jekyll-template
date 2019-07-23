@@ -1,8 +1,8 @@
 ---
-name: Cause Template
-subtitle: Not for profit template for Jekyll
-external_url: https://github.com/CloudCannon/cause-jekyll-template
-image_path: /images/clients/cause.jpg
+name: Водоснабжение
+subtitle: Все работы от поиска воды до установки приборов потребления на вашем участке под ключ
+external_url: http:/#
+image_path: /images/clients/kolco1.jpg
 ---
 
 Not for profit themed template for Jekyll. Browse through a [live demo](#TODO).
