@@ -56,7 +56,7 @@ header {
 
 section {
 	padding: 150px 0;
-	background: #fff;
+	background: #000;
 	margin-top: -2px;
 
 	&.diagonal {
@@ -74,7 +74,7 @@ section {
 	}
 
 	&.hero {
-		color: #000000;
+		color: #ffffff;
 		background: $brand-color;
 		text-align: left;
 		margin-top: -100px;
