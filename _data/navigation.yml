@@ -1,9 +1,9 @@
 links:
-  - name: Portfolio
+  - name: Наши услуги
     link: /portfolio/
-  - name: Blog
+  - name: Блог
     link: /blog/
-  - name: About
-    link: /about/
   - name: О нас
+    link: /about/
+  - name: Контакты
     link: /contact/
