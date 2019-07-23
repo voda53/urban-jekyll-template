@@ -74,7 +74,7 @@ section {
 	}
 
 	&.hero {
-		color: #ccc;
+		color: #ffffff;
 		background: $brand-color;
 		text-align: left;
 		margin-top: -100px;
@@ -90,11 +90,11 @@ section {
 
 		p {
 			font-size: 1.8rem;
-			color: #ccc;
+			color: #fff;
 		}
 
 		a:not(.button) {
-			color: #ccc;
+			color: #ffffff;
 			font-style: italic;
 		}
 	}
