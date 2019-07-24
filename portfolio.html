@@ -6,15 +6,15 @@ subtitle: Выезд на место, расчет стоимости, подб�
 
 <section class="diagonal patterned">
 	<div class="container">
-	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_clients/" class="btn"><strong>&#9998;</strong> Manage Clients</a></p>
+	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_uslugi/" class="btn"><strong>&#9998;</strong> Manage uslugi</a></p>
 		<ul class="image-grid">
-			{% for client in site.clients %}
+			{% for usluga in site.uslugi %}
 				<li>
-					<a href="{{ site.baseurl }}{{ client.url }}">
-						<img src="{% include relative-src.html src=client.image_path %}" alt="{{ person.name }}">
+					<a href="{{ site.baseurl }}{{ usluga.url }}">
+						<img src="{% include relative-src.html src=usluga.image_path %}" alt="{{ person.name }}">
 						<div class="details">
-							<div class="name">{{ client.name }}</div>
-							<div class="position">{{ client.subtitle }}</div>
+							<div class="name">{{ usluga.name }}</div>
+							<div class="position">{{ usluga.subtitle }}</div>
 						</div>
 					</a>
 				</li>

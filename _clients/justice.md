@@ -2,7 +2,7 @@
 name: Justice Template
 subtitle: Law firm themed business template for Jekyll
 external_url: https://github.com/CloudCannon/justice-jekyll-template
-image_path: /images/clients/justice.jpg
+image_path: /images/uslugi/justice.jpg
 ---
 
 Law firm themed business template for Jekyll. Browse through a [live demo](https://grey-grouse.cloudvent.net/).
@@ -73,7 +73,7 @@ Justice is already optimised for adding, updating and removing pages, staff, adv
 
 ### Footer
 
-* Exposed as a data file to give clients better access.
+* Exposed as a data file to give uslugi better access.
 * Set in the *Data* / *Footer* section.
 
 ### Company details

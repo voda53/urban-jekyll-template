@@ -2,7 +2,7 @@
 name: Frisco Template
 subtitle: App marketing template for Jekyll
 external_url: https://github.com/CloudCannon/frisco-jekyll-template
-image_path: /images/clients/frisco.jpg
+image_path: /images/uslugi/frisco.jpg
 ---
 
 App promotion themed template for Jekyll. Browse through a [live demo](https://brave-submarine.cloudvent.net/).
@@ -71,10 +71,10 @@ Frisco is already optimised for adding, updating and removing pages, staff, advi
 
 ### Footer
 
-* Exposed as a data file to give clients better access.
+* Exposed as a data file to give uslugi better access.
 * Set in the *Data* / *Navigation* section.
 
 ### Footer
 
-* Exposed as a data file to give clients better access.
+* Exposed as a data file to give uslugi better access.
 * Set in the *Data* / *Footer* section.

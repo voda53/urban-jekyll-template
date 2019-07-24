@@ -2,7 +2,7 @@
 name: Edition Template
 subtitle: Product documentation template for Jekyll
 external_url: https://github.com/CloudCannon/edition-jekyll-template
-image_path: /images/clients/edition.png
+image_path: /images/uslugi/edition.png
 ---
 
 Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).

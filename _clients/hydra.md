@@ -2,7 +2,7 @@
 name: Hydra Template
 subtitle: Product marketing template for Jekyll
 external_url: https://github.com/CloudCannon/hydra-jekyll-template
-image_path: /images/clients/hydra.png
+image_path: /images/uslugi/hydra.png
 ---
 
 Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
@@ -73,10 +73,10 @@ Hydra is already optimised for adding, updating and removing pages, staff, advic
 
 ### Footer
 
-* Exposed as a data file to give clients better access.
+* Exposed as a data file to give uslugi better access.
 * Set in the *Data* / *Navigation* section.
 
 ### Footer
 
-* Exposed as a data file to give clients better access.
+* Exposed as a data file to give uslugi better access.
 * Set in the *Data* / *Footer* section.

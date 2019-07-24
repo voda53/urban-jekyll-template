@@ -25,7 +25,7 @@ timezone: Etc/UTC
 collections:
   staff_members:
     output: false
-  clients:
+  uslugi:
     output: true
 
 paginate: 10
@@ -60,9 +60,9 @@ defaults:
           height: 2000
   - scope:
       path: ""
-      type: "clients"
+      type: "uslugi"
     values:
-      layout: "client"
+      layout: "usluga"
       _options:
         image_path:
           width: 2000

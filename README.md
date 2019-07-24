@@ -69,7 +69,7 @@ Urban is already optimised for adding, updating and removing pages, staff, advic
 
 ### Footer
 
-* Exposed as a data file to give clients better access.
+* Exposed as a data file to give uslugas better access.
 * Set in the *Data* / *Footer* section.
 
 ### Company details
