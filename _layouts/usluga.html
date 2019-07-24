@@ -32,8 +32,32 @@ layout: default
 		<div class="button"><a href="{{ site.baseurl }}/portfolio/">Больше наших работ &rarr;</a>
 		</div>
 	</div>
-	<div>
-		<h3>Email</h3>
-		<p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
+</section>
+<section class="diagonal">
+	<div class="container">
+		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
+			<input type="hidden" name="_to" value="support@example.com" />
+			<input type="text" name="_gotcha" style="display: none;" />
+
+			<div class="halves">
+				<div>
+					<label for="name">Имя</label>
+					<input type="text" name="first-name" id="first-name" placeholder="Иван" />
+				</div>
+
+				<div>
+					<label for="name">Фамилия</label>
+					<input type="text" name="last-name" id="last-name" placeholder="Петров" />
+				</div>
+			</div>
+
+			<label for="email">Ваш Email адрес</label>
+			<input type="email" name="email" id="email" placeholder="john@example.com" required />
+
+			<label for="message">Ваше письмо</label>
+			<textarea name="message" id="message" placeholder="Здравствуйте,.."></textarea>
+
+			<input type="submit" value="Отправить" />
+		</form>
 	</div>
 </section>
