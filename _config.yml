@@ -1,12 +1,12 @@
-title: Urban Template
-url: "https://teal-worm.cloudvent.net"
+title: Вода в вашем доме
+url: "https://voda53.cloudvent.net"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: Водоснабжение, водоотведение, дренаж для частных жилых домов, дач и бань в Великом Новгороде и Новгородской области
 
 # Author details for the jekyll-seo-tag gem
 author:
@@ -16,9 +16,9 @@ author:
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: Вода в вашем доме
   links:
-    - https://github.com/CloudCannon/urban-jekyll-template
+    - https://vk.com/id466853316
 
 timezone: Etc/UTC
 
