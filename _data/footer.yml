@@ -4,12 +4,12 @@
       link: /
     - name: Наши услуги
       link: /portfolio/
-    - name: Блог
-      link: /blog/
     - name: О нас
       link: /about/
     - name: Контакты
       link: /contact/
+    - name: +7 921 6958007
+      link:
 - title: 
   links:
     - name: Vkontakte
