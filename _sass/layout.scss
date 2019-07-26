@@ -238,7 +238,7 @@ section {
 }
 
 .patterned {
-	background: #222 url($pattern);
+	background: $brand-color;
 
 	&,
 	p {
