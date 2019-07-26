@@ -30,7 +30,7 @@ title: Вода в вашем доме
 		<div>
 			<ul class="image-grid">
 				{% for usluga in site.uslugi limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
+					<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}"></a></li>
 				{% endfor %}
 			</ul>
 		</div>
@@ -39,6 +39,14 @@ title: Вода в вашем доме
 
 <section class="diagonal alternate">
 	<div class="container halves">
+		<div>
+			<h3 class="editable">
+				Наши партнеры
+			</h3>
+			<p class="editable">
+				Как опытный участник рынка водопользования в частном секторе, мы гордимся выполненными работами и нашими счастливыми клиентами. Вложенные вами деньги должны безотказно работать и приносить вам пользу, и комфорт!
+			</p>
+		</div>		
 		<div>
 			<ul class="image-list">
 				<li><img src="{{ site.baseurl }}/images/partners/dab.jpg" width="300" style="margin-bottom: 40px;" /></li>
@@ -52,14 +60,6 @@ title: Вода в вашем доме
 				<li><img src="{{ site.baseurl }}/images/partners/grundfoslogo.png" width="300" /></li>
 				<li><img src="{{ site.baseurl }}/images/partners/jilex.svg" width="300" /></li>
 			</ul>
-		</div>
-		<div>
-			<h3 class="editable">
-				Наши партнеры
-			</h3>
-			<p class="editable">
-				Как опытный участник рынка водопользования в частном секторе, мы гордимся выполненными работами и нашими счастливыми клиентами. Вложенные вами деньги должны безотказно работать и приносить вам пользу, и комфорт!
-			</p>
 		</div>
 	</div>
 </section>
