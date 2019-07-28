@@ -7,8 +7,7 @@
     - name: Контакты
       link: /contact/
     - name: +7 921 6958007
-      context: |
-        link: <p><a class="button alt" href="tel:{{site.phone}}">Позвонить нам</a></p>
+      link: href="tel:{{site.phone}}"
 - title: 
   links:
     - name: Vkontakte
