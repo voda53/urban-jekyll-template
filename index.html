@@ -28,7 +28,9 @@ title: Вода в вашем доме
 				<a href="/portfolio/">Хочу знать всё &rarr;</a>
 			</p>
 		</div>
-		<div class="square-image"><img src="{% include relative-src.html src=include.usluga.image_path %}" />
+		<div>
+			<ul class="image-grid">
+				<li><a href="{{ site.baseurl }}/uslugi/Водоснабжение/"><img src="{% include relative-src.html src={{ site.baseurl }}/images/uslugi/livnevaya.jpg %}" /></a></li>
 				<!--{% for usluga in site.uslugi limit: 4 %}
 					<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
 				{% endfor %}-->
@@ -38,26 +40,6 @@ title: Вода в вашем доме
 		</div>
 	</div>
 </section>
-<!--
-
-
-<a target="_blank" href="https://vk.com/id466853316">
-	<div class="square-image"><img src="{% include relative-src.html src=include.member.image_path %}" alt="{{ include.member.name }}"/></div>
-	<div class="details">
-		<div class="name">{{ include.member.name }}</div>
-		<div class="position">{{ include.member.position }}</div>
-	</div>
-</a>
-
-
-
-
-
-
-
-
-
--->
 <section class="diagonal alternate">
 	<div class="container halves">
 		<div>
