@@ -33,9 +33,9 @@ title: Вода в вашем доме
 				{% for usluga in site.uslugi limit: 4 %}
 					{% if usluga.name == Водоснабжение %}
 						<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
-						{% else %}
-							{% unless usluga.name == Водоснабжение %}
-								<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
+					{% else %}
+						{% unless usluga.name == Водоснабжение %}
+							<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
 					{% endif %}
 				{% endfor %}
 			<!--</ul>
