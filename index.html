@@ -30,10 +30,9 @@ title: Вода в вашем доме
 		</div>
 		<div>
 			<ul class="image-grid">
-				<li><a href="{{ site.baseurl }}/uslugi/Водоснабжение/"><img src="{% include relative-src.html src={{ site.baseurl }}/images/uslugi/livnevaya.jpg %}" /></a></li>
-				<!--{% for usluga in site.uslugi limit: 4 %}
+				{% for usluga in site.uslugi limit: 4 %}
 					<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
-				{% endfor %}-->
+				{% endfor %}
 			<!--</ul>
 			<ul class="image-grid">
 					<li><a href="{{ site.baseurl }}/uslugi/Водоснабжение/"><img src="{{ site.baseurl }}/images//uslugi/livnevaya.jpg" width="300" /></a></li>-->
