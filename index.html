@@ -31,7 +31,10 @@ title: Вода в вашем доме
 		<div>
 			<ul class="image-grid">
 				{% for usluga in site.uslugi limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
+					{% if usluga == "Водоснабжение" %}
+						<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
+					{% else %}
+						{% continue %}
 				{% endfor %}
 			<!--</ul>
 			<ul class="image-grid">
