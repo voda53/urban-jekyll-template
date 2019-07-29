@@ -19,7 +19,7 @@ title: Вода в вашем доме
 	<div class="container halves">
 		<div>
 			<h3 class="editable">
-				Вам нужен автономный водопровод, автономная кнализация в вашем доме или на даче? Не знаете счего начать? есть собственные идеи, хотете их воплотить? ЗВОНИТЕ НАМ!  
+				Вам нужен автономный водопровод, автономная кнализация в вашем доме или на даче? Не знаете счего начать? есть собственные идеи, хотете их воплотить? ЗВОНИТЕ НАМ!
 			</h3>
 			<p class="editable">
 				У нас есть большой опыт, мастерство, дисциплинированная бригада, спецтехника (миниэкскаватор, экскаватор-погрузчик, самосвал, ассенизатор), специнструмент.
@@ -31,11 +31,13 @@ title: Вода в вашем доме
 		<div>
 			<ul class="image-grid">
 				{% for usluga in site.uslugi limit: 4 %}
-					{% if usluga.name == 'Водоснабжение' %}
+					{% if usluga.name == "Водоснабжение" %}
 						<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
-					<!--{% else %}
-						{% unless usluga.name == 'Водоснабжение' %}
-							<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>-->
+					{% endif %}
+				{% endfor %}
+				{% for usluga in site.uslugi limit: 4 %}
+					{% if usluga.name != "Водоснабжение" %}
+						<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
 					{% endif %}
 				{% endfor %}
 			<!--</ul>
