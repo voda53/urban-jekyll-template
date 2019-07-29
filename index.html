@@ -31,7 +31,7 @@ title: Вода в вашем доме
 		<div>
 			<ul class="image-grid">
 				{% for usluga in site.uslugi limit: 4 %}
-					<li><a href="{{ site.baseurl }}{{ usluga.url }}" /></a></li>
+					{{ usluga.image_path }}
 						<!--<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>-->
 				{% endfor %}
 			<!--</ul>
