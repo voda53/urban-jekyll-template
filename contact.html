@@ -13,21 +13,21 @@ map:
 
 			<div class="halves">
 				<div>
-					<label for="name">Имя</label>
-					<input type="text" name="first-name" id="first-name" placeholder="Иван" />
+					<label for="name"></label>
+					<input type="text" name="first-name" id="first-name" placeholder="Имя" />
 				</div>
 
 				<div>
-					<label for="name">Фамилия</label>
-					<input type="text" name="last-name" id="last-name" placeholder="Петров" />
+					<label for="name"></label>
+					<input type="text" name="last-name" id="last-name" placeholder="Фамилия" />
 				</div>
 			</div>
 
-			<label for="email">Ваш Email адрес</label>
-			<input type="email" name="email" id="email" placeholder="ivan@example.com" required />
+			<label for="email"></label>
+			<input type="email" name="email" id="email" placeholder="Ваш Email адрес" required />
 
-			<label for="message">Ваше письмо</label>
-			<textarea name="message" id="message" placeholder="Здравствуйте,.."></textarea>
+			<label for="message"></label>
+			<textarea name="message" id="message" placeholder="Ваше письмо"></textarea>
 
 			<input type="submit" value="Отправить" />
 		</form>
@@ -36,20 +36,19 @@ map:
 <!--
 <section class="diagonal map">
 	<div id="gmap_canvas"></div>
-</section>
+</section>-->
 <section class="diagonal">
 	<div class="container halves aligned-top">
 		<div>
-			<h3>Address</h3>
-				<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+			<h3>Телефон</h3>
+				<a href="tel:{{site.phone}}">+79216958007</a>
 		</div>
 		<div>
 			<h3>Email</h3>
-			<p><a href="mailto:{{ site.data.company.contact_email_address }}">{{ site.data.company.contact_email_address }}</a></p>
+			<p><a href="mailto:romanrp-53@yandex.ru">romanrp-53@yandex.ru</a></p>
 		</div>
 	</div>
 </section>
--->
 <!--<script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
 
