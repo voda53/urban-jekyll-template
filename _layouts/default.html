@@ -22,9 +22,11 @@
 			</script>
 			<script async src='https://www.google-analytics.com/analytics.js'></script>
 		{% endif %}
+<!--
 		{% include slider_styles.html %}
-		<!--<link rel="stylesheet" href="ism/css/my-slider.css"/>
-		<script src="ism/js/ism-2.2.min.js"></script>-->
+		<link rel="stylesheet" href="ism/css/my-slider.css"/>
+		<script src="ism/js/ism-2.2.min.js"></script>
+-->
 	</head>
 	<body>
 		<header>
@@ -76,33 +78,11 @@
 				</p>
 			</div>
 		</footer>
-
-
 		<script>
 			document.getElementById("open-nav").onclick = function () {
 				document.body.classList.toggle("nav-open");
 				return false;
 			};
 		</script>
-		<!--{% include slider_scripts.html %}
-		<div class="ism-slider" data-transition_type="fade" data-play_type="loop" data-interval="3000" data-image_fx="zoomrotate" id="my-slider">
-		  <ol>
-		    <li>
-		      <img src="ism/image/slides/flower-729514_1280.jpg">
-		      <div class="ism-caption ism-caption-0">My slide caption text</div>
-		    </li>
-		    <li>
-		    <a href="" target="_blank">
-		      <img src="ism/image/slides/beautiful-701678_1280.jpg">
-		      <div class="ism-caption ism-caption-0">My slide caption text</div>
-		    </a>
-		    </li>
-		    <li>
-		      <img src="ism/image/slides/summer-192179_1280.jpg">
-		      <div class="ism-caption ism-caption-0">My slide caption text</div>
-		    </li>
-		  </ol>
-		</div>
-		<p class="ism-badge" id="my-slider-ism-badge"><a class="ism-link" href="http://imageslidermaker.com" rel="nofollow">generated with ISM</a></p>-->
 	</body>
 </html>

@@ -1,11 +1,8 @@
 ---
 title: Вода в вашем доме
-image_sliders:
-  - slider2
 ---
 
 <section class="hero diagonal">
-	<!--{% include slider.html selector="slider2" %}-->
 	<div class="container">
 		<h2 class="editable">
 			<strong>Вода в вашем доме</strong>
@@ -17,8 +14,6 @@ image_sliders:
 		<p><a class="button alt" href="tel:{{site.phone}}">Позвонить нам</a></p>
 	</div>
 </section>
-image_sliders_load_all: true
-
 <section class="diagonal patterned">
 	<div class="container halves">
 		<div>
@@ -46,9 +41,6 @@ image_sliders_load_all: true
 						<li><a href="{{ site.baseurl }}{{ usluga.url }}"><img src="{% include relative-src.html src=usluga.image_path %}" /></a></li>
 					{% endif %}
 				{% endfor %}
-			<!--</ul>
-			<ul class="image-grid">
-					<li><a href="{{ site.baseurl }}/uslugi/Водоснабжение/"><img src="{{ site.baseurl }}/images//uslugi/livnevaya.jpg" width="300" /></a></li>-->
 		</div>
 	</div>
 </section>
